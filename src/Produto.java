@@ -57,7 +57,7 @@ public class Produto  implements Comparable<Produto> {
                 ", nome='" + nome + '\'' +
                 ", preco=" + preco +
                 ", quantidade=" + quantidade +
-                " } \n";
+                " }\n ";
     }
 
     // Comparator para ordenar por preço

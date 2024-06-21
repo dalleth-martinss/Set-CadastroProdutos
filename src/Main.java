@@ -8,6 +8,10 @@ public class Main {
         cadastroProdutos.adicionarProduto(3L, "Produto B", 10d, 4);
         cadastroProdutos.adicionarProduto(4L, "Produto E", 13d, 2);
         cadastroProdutos.adicionarProduto(5L, "Produto D", 9d, 2);
+        cadastroProdutos.adicionarProduto(4L, "Produto G", 13d, 2);
+        cadastroProdutos.adicionarProduto(5L, "Produto H", 9d, 2);
+        cadastroProdutos.adicionarProduto(4L, "Produto I", 13d, 2);
+        cadastroProdutos.adicionarProduto(5L, "Produto F", 9d, 2);
 
         System.out.println("********* LISTA DE PRODUTOS ******************\n");
         System.out.println(cadastroProdutos.getProdutoSet());
@@ -15,6 +19,7 @@ public class Main {
         System.out.println(cadastroProdutos.exibirProdutoPorPreco());
         System.out.println("************ LISTA POR NOME ***************\n");
         System.out.println(cadastroProdutos.exibirProdutoPorNome());
+
 
     }
 }
